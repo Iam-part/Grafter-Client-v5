@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "grafters",
+  "version": "${version}",
+  "name": "Grafters",
+  "description": "Client-side utility mod with a black & neon green UI.",
+  "authors": ["Grafters"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.grafters.GraftersClient"]
+  },
+  "mixins": ["grafters.mixins.json", "grafters.visual.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "litematica": "*"
+  }
+}

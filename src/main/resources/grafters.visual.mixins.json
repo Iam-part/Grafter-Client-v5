@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "package": "com.grafters.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ItemInHandRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
